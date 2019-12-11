@@ -1,0 +1,4 @@
+RPGMaker's encryption is a total joke.  All it does is xor the first 16 bytes
+of the file with that key it stores in plaintext in the .json file and then
+stick another 16 byte header on the front of the file.  I'm not sure who they
+think they're stopping with it or why they even bothered.  
